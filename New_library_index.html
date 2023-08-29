@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Library Index</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			background-image: url("background2.jpg");
+			background-repeat: no-repeat;
+			background-position: center top;
+			color: white;
+		}
+
+		div.d1 {
+			margin-top: 14px;
+			margin-left: 30%;
+			margin-right: 30%;
+			border: 1px solid grey;
+			padding: 8px;
+		}
+
+		div.gallery {
+			margin-left: 10%;
+			margin-top: 80px;
+			border: 1px solid #ccc;
+			float: left;
+			width: 180px;
+		}
+
+		div.gallery:hover {
+			border: 1px solid #777;
+		}
+
+		div.gallery img {
+			width: 100%;
+			height: auto;
+		}
+
+		div.desc {
+			padding: 15px;
+			text-align: center;
+			color: black;
+		}
+
+		h1 {
+			font-family: "Bungee", display;
+			text-align: center;
+			letter-spacing: 2px;
+		}
+
+		h5 {
+			font-family: "Lucida Console", "Courier New", monospace;
+			text-indent: 50px;
+			text-align: center;
+		}
+
+		form.example input[type=text] {
+			padding: 10px;
+			font-size: 17px;
+			border: 1px solid rgb(236, 5, 5);
+			float: left;
+			width: 80%;
+			background: #f1f1f1;
+			border-radius: 25px 0px 0px 25px;
+		}
+
+		form.example button {
+			float: left;
+			width: 20%;
+			padding: 10px;
+			background: #2196F3;
+			color: white;
+			font-size: 17px;
+			border: 1px solid grey;
+			border-left: none;
+			cursor: pointer;
+			border-radius: 0px 25px 25px 0px;
+		}
+
+		form.example button:hover {
+			background: #0b7dda;
+		}
+
+		form.example::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+	</style>
+</head>
+
+<body>
+	<form class="example">
+		<input type="text" placeholder="Search.." name="search">
+		<button type="submit"><i class="fa fa-search"></i></button>
+	</form>
+	<div class="d1">
+		<h1>Online Library</h1>
+		<hr>
+		<h5>Over 1.5 million high quality Books, Articles with variety of categories shared by our company</h5>
+	</div>
+
+	<div class="gallery">
+		<a target="_blank" href="psy.pdf">
+			<img src="pom.jpg" width="540" height="675">
+		</a>
+		<div class="desc">Pyschology of Money, by Morgan Housel</div>
+	</div>
+
+	<div class="gallery">
+		<a target="_blank" href="rdpd.pdf">
+			<img src="rdpd.jpg" width="540" height="675">
+		</a>
+		<div class="desc">Rich Dad Poor Dad, by Robert Kiyosaki</div>
+	</div>
+
+	<div class="gallery">
+		<a target="_blank" href="atomic.pdf">
+			<img src="ah.jpg" width="540" height="675">
+		</a>
+		<div class="desc">Atomic Habits, by James Clear</div>
+	</div>
+
+	<div class="gallery">
+		<a target="_blank" href="subtle_art.pdf">
+			<img src="sanga.png" width="540" height="675">
+		</a>
+		<div class="desc">Subtle art of not giving f, by Mark Manson</div>
+	</div>
+</body>
+
+</html>
